@@ -1,0 +1,28 @@
+module animal {
+  namespace "http://hack.garage.com/animal";
+  prefix hack;
+
+  container cat {
+    leaf does {
+            type string {
+              pattern "[A-Za-z]+";
+            }
+        }
+    }
+
+  container dog {
+    leaf does {
+            type string {
+                pattern "[A-Za-z]+";
+            }
+        }
+    }
+    
+  container tiger {
+    leaf does {
+            type string {
+                pattern "[A-Za-z]+";
+            }
+        }
+    }
+}
