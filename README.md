@@ -13,7 +13,7 @@ execute ./hack.com
 # Step 3 : demonstrate rest server
 It would be useful to read the code before this step, but basically we have a rest interface to the yang model.
 
-Try get for animal/cat
+Try get for animal/cat\n
 curl localhost:3000/animal/cat
 {"does" : "meow" }
 The cat meows.
